@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Primer Modulo</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="shortcut icon" href="images/p.png">
+
+</head>
+<body>
+   
+    <!-- header section starts  -->
+    
+    <header class="header">
+    
+       <a href="#" class="logo"> <i class="fas fa-arrow-right"></i> PrimosTech </a>
+    
+       <nav class="navbar">
+          <div id="close-navbar" class="fas fa-times"></div>
+          <a href="home.html">home</a>
+          <a href="about.html">acerca de</a>
+          <a href="courses.html">cursos</a>
+          <a href="contact.html">contactanos</a>
+       </nav>
+    
+       <div class="icons">
+          <div id="account-btn" class="fas fa-user"></div>
+          <div id="menu-btn" class="fas fa-bars"></div>
+       </div>
+    
+    </header>
+    
+    <!-- account form section starts  -->
+    
+    <div class="account-form">
+    
+       <div id="close-form" class="fas fa-times"></div>
+    
+       <div class="buttons">
+          <span class="btn active login-btn">login</span>
+          <span class="btn register-btn">register</span>
+       </div>
+    
+       <form class="login-form active" action="">
+          <h3>login now</h3>
+          <input type="email" placeholder="enter your email" class="box">
+          <input type="password" placeholder="enter your password" class="box">
+          <div class="flex">
+             <input type="checkbox" name="" id="remember-me">
+             <label for="remember-me">remember me</label>
+             <a href="#">forgot password?</a>
+          </div>
+          <input type="submit" value="login now" class="btn">
+       </form>
+    
+       <form class="register-form" action="">
+          <h3>register now</h3>
+          <input type="email" placeholder="enter your email" class="box">
+          <input type="password" placeholder="enter your password" class="box">
+          <input type="password" placeholder="confirm your password" class="box">
+          <input type="submit" value="register now" class="btn">
+       </form>
+ 
+
+</div>
+
+<section class="modulo1">
+
+   <h1 class="heading">Como alojar una pagina web estatica en AWS S3</h1>
+   <h2 class="heading2">Para empezar accedemos al servicio de AWS e iniciamos sesion</h2>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/modulo1a.jpg" alt="" height="500" width="1000">
+         <br>
+         <br>
+         <br>
+         <br>
+         <h2 class="heading2">Ahora que estamos en la Consola de administracion de AWS, seleccionaremos el servicio S3</h2>
+      </div>
+
+      <div class="box">
+         <img src="images/modulo1b.jpg" alt="" height="500" width="1000">
+         <br>
+         <br>
+         <br>
+         <br>
+         <h2 class="heading2">Dentro de el servicio S3 crearemos un Bucket haciendo click en crear Bucket.</h2>
+         
+      </div>
+
+      <div class="box">
+         <img src="images/modulo1c.jpg" alt="" height="500" width="1000">
+         <br>
+         <br>
+         <br>
+         <br>
+         <h2 class="heading2">Al crear nuestro Bucket tendremos que nombrarlo de forma unica y habilitar las listas de control de acceso (ACL) para que nuestra pagina web pueda ser visible publicamente.</h2>
+         
+      </div>
+
+      <div class="box">
+         <img src="images/modulo1d.jpg" alt="" height="500" width="1000">
+         <br>
+         <br>
+         <br>
+         <br>
+         <h2 class="heading2">Hasta el final de la pagina hacemos click en crear Bucket, ya mas adelante configuraremos los demas permisos.</h2>
+         
+      </div>
+
+      <div class="box">
+         <img src="images/modulo1e.jpg" alt="" height="500" width="1000">
+         <br>
+         <br>
+         <br>
+         <br>
+         <h2 class="heading2">Al crear el Bucket regresaremos a la pagina del servicio S3, aqui nos mostrara los buckets que hemos creado. Seleccionaremos nuestro bucket y ya dentro hacemos click en cargar, lo cual nos permitira agregar los archivos de nuestra pagina web.  </h2>
+         
+      </div>
+      <div class="box">
+         <img src="images/modulo1f.jpg" alt="" height="500" width="1000">
+         <br>
+         <br>
+         <br>
+         <br>
+         <h2 class="heading2">En la pantalla de cargar solo abrimos nuestra carpeta con los archivos de la pagina y los arrastramos hacia la pagina de carga de AWS. </h2>
+         
+      </div>
+
+      <div class="box">
+         <img src="images/modulo1g.jpg" alt="" height="500" width="1000">
+         <br>
+         <br>
+         <br>
+         <br>
+         <h2 class="heading2">Al finalizar nos mostrara la lista de los archivos y hacemos click en el boton cargar.</h2>
+         
+      </div>
+
+      <div class="box">
+         <img src="images/modulo1h.jpg" alt="" height="500" width="1000">
+         <br>
+         <br>
+         <br>
+         <br>
+         <h2 class="heading2">Cuando veamos completa la lista de nuestros archivos solo hacemos click en cerrar.</h2>
+         
+      </div>
+
+      <div class="box">
+         <img src="images/modulo1i.jpg" alt="" height="500" width="1000">
+         <br>
+         <br>
+         <br>
+         <br>
+         <h2 class="heading2">Ahora configuraremos los permisos para hacer la pagina web visible para el publico, asi que hacemos click en la pestaña permisos.</h2>
+         
+      </div>
+      <div class="box">
+         <img src="images/modulo1j.jpg" alt="" height="500" width="1000">
+         <br>
+         <br>
+         <br>
+         <br>
+         <h2 class="heading2">Hasta el final de la pagina esta la seccion Alojamiento de sitios web estaticos, habilitamos este servicio y hacemos click en editar.</h2>
+         
+      </div>
+      <div class="box">
+         <img src="images/modulo1k.jpg" alt="" height="500" width="1000">
+         <br>
+         <br>
+         <br>
+         <br>
+         <h2 class="heading2">En esta seccion en el apartado Documento de indice pondremos el nombre de nuestro archivo html que contiene el inicio del sitio web y hacemos click en guardar cambios.</h2>
+         
+      </div>
+
+      <div class="box">
+         <img src="images/modulo1L.jpg" alt="" height="500" width="1000">
+         <br>
+         <br>
+         <br>
+         <br>
+         <h2 class="heading2">Ahora vamos a configurar los permisos y las politicas de nuestra pagina para que pueda ser accesible publicamente pero sea segura y dar solo acceso Read a los visitantes. Asi que vamos a la pestaña permisos y en el apartado politica de bucket hacemos click en editar.</h2>
+         
+      </div>
+
+      <div class="box">
+         <img src="images/modulo1m.jpg" alt="" height="500" width="1000">
+         <br>
+         <br>
+         <br>
+         <br>
+         <h2 class="heading2">Como vemos ya hay una politica predeterminada, pero crearemos una personalizada al hacer click en el generador de politicas a la derecha.  </h2>
+         
+      </div>
+
+      <div class="box">
+         <img src="images/modulo1n.jpg" alt="" height="500" width="1000">
+         <br>
+         <br>
+         <br>
+         <br>
+         <h2 class="heading2">Aqui hay 3 pasos que tenemos que configurar. En el paso 1 hay que seleccionar la opcion S3 Bucket Policy. En el paso 2 seccion Principal pondremos un * y pondremos el Amazon Resource Name (ARN) el cual encontraremos en la pagina anterior de la politica del bucket, solo agregaremos un /* al final de nuestro ARN para aplicar estas reglas a todos los archivos de nuestro bucket y en Actions solo seleccionaremos la opcion s3:GetObject y hacemos click en Add Statement. </h2>
+         
+      </div>
+      <div class="box">
+         <img src="images/modulo1o.jpg" alt="" height="500" width="1000">
+         <br>
+         <br>
+         <br>
+         <br>
+         <h2 class="heading2">Nuestra pagina debe lucir parecida a esta, ahora solo Generamos la Politica en el boton Generate Policy. </h2>
+         
+      </div>
+
+      <div class="box">
+         <img src="images/modulo1p.jpg" alt="" height="500" width="1000">
+         <br>
+         <br>
+         <br>
+         <br>
+         <h2 class="heading2">Nos enviara a una pagina emergente con la politica en un archivo JSON, la copiamos y la pegamos en nuestra pagina de politicas.</h2>
+         
+      </div>
+
+      <div class="box">
+         <img src="images/modulo1q.jpg" alt="" height="500" width="1000">
+         <br>
+         <br>
+         <br>
+         <br>
+         <h2 class="heading2">Por ultimo aqui pegamos la politica que generamos y hacemos click en el boton guardar cambios y listo ya tenemos todo listo para que nuestra pagina web pueda ser vista.</h2>
+         
+      </div>
+
+      <div class="box">
+         <img src="images/modulo1r.jpg" alt="" height="500" width="1000">
+         <h2 class="heading2"></h2>
+         
+      </div>
+
+
+   </div>
+
+</section>
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+ 
+       <div class="box">
+          <h3> <i class="fas fa-arrow-right"></i> PrimosTech </h3>
+          <p>Siguenos en nuestras redes sociales</p>
+          <div class="share">
+             <a href="#" class="fab fa-facebook-f"></a>
+             <a href="#" class="fab fa-twitter"></a>
+             <a href="#" class="fab fa-instagram"></a>
+             <a href="#" class="fab fa-linkedin"></a>
+          </div>
+       </div>
+ 
+       <div class="box">
+          <h3>Accesos Rapidos</h3>
+          <a href="home.html" class="link">Home</a>
+          <a href="about.html" class="link">Acerca de</a>
+          <a href="courses.html" class="link">Cursos</a>
+          <a href="contact.html" class="link">Contactanos</a>
+       </div>
+ 
+       <div class="box">
+          <h3>Enlaces de ayuda</h3>
+          <a href="#" class="link">Centro de ayuda</a>
+          <a href="#" class="link">Pnvianos tus comentarios</a>
+          <a href="#" class="link">Politica de privacidad</a>
+          <a href="#" class="link">Terminos de uso</a>
+       </div>
+ 
+       <div class="box">
+          <h3>Ultimas Noticias</h3>
+          <p>suscribete</p>
+          <form action="">
+             <input type="email" name="" placeholder="enter your email" id="" class="email">
+             <input type="submit" value="subscribe" class="btn">
+          </form>
+       </div>
+ 
+    </div>
+ 
+    <div class="credit"> creado por <span>PrimosTech</span> | todos los derechos reservados! </div>
+ 
+ </section>
+ 
+ <!--seccion footer termina -->
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <!-- swiper js link  -->
+ <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+ 
+ <!-- custom js file link  -->
+ <script src="js/script.js"></script>
+ 
+ 
+</body>
+</html>
